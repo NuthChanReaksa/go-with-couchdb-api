@@ -5,10 +5,10 @@ import (
 	"log"
 	"net/http" // standard http package
 
-	customHTTP "cmd/internal/http" // renamed internal http package to avoid conflict
-	"cmd/internal/infrastructure"
-	"cmd/internal/repository"
-	"cmd/internal/usecase"
+	customHTTP "github.com/NuthChanReaksa/go-with-couchdb-api/internal/http" // renamed internal http package to avoid conflict
+	"github.com/NuthChanReaksa/go-with-couchdb-api/internal/infrastructure"
+	"github.com/NuthChanReaksa/go-with-couchdb-api/internal/repository"
+	"github.com/NuthChanReaksa/go-with-couchdb-api/internal/usecase"
 )
 
 func main() {

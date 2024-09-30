@@ -3,8 +3,8 @@ package repository
 import (
 	"context"
 	"github.com/go-kivik/kivik/v4"
-	"cmd/internal/entities"
-	"cmd/internal/interfaces"
+	"github.com/NuthChanReaksa/go-with-couchdb-api/internal/entities"
+	"github.com/NuthChanReaksa/go-with-couchdb-api/internal/interfaces"
 )
 
 type CouchDBProductRepository struct {

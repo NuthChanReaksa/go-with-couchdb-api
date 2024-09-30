@@ -2,7 +2,7 @@ package interfaces
 
 import (
 	"context"
-	"cmd/internal/entities"
+	"github.com/NuthChanReaksa/go-with-couchdb-api/internal/entities"
 )
 
 type ProductRepository interface {

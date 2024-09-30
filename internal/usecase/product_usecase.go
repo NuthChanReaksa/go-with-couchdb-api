@@ -3,8 +3,8 @@ package usecase
 import (
 	"context"
 	"errors"
-	"cmd/internal/entities"
-	"cmd/internal/interfaces"
+	"github.com/NuthChanReaksa/go-with-couchdb-api/internal/entities"
+	"github.com/NuthChanReaksa/go-with-couchdb-api/interfaces"
 )
 
 type ProductUsecase struct {

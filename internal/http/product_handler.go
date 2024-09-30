@@ -2,8 +2,8 @@ package http
 
 import (
 	"encoding/json"
-	"go-with-couchdb-api/internal/entities"
-	"go-with-couchdb-api/internal/usecase"
+	"github.com/NuthChanReaksa/go-with-couchdb-api/internal/entities"
+	"github.com/NuthChanReaksa/go-with-couchdb-api/internal/usecase"
 	"net/http"
 )
 
