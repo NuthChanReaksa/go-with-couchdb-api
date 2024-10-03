@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 	"github.com/NuthChanReaksa/go-with-couchdb-api/internal/entities"
-	"github.com/NuthChanReaksa/go-with-couchdb-api/interfaces"
+	"github.com/NuthChanReaksa/go-with-couchdb-api/internal/interfaces"
 )
 
 type ProductUsecase struct {

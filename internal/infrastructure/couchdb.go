@@ -2,8 +2,9 @@ package infrastructure
 
 import (
 	"context"
-	_ "github.com/go-kivik/couchdb/v4" // CouchDB driver
+
 	"github.com/go-kivik/kivik/v4"
+	_ "github.com/go-kivik/kivik/v4/couchdb"
 )
 
 func NewCouchDBConnection(ctx context.Context, dsn string) (*kivik.Client, error) {

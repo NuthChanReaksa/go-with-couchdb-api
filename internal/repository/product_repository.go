@@ -2,9 +2,10 @@ package repository
 
 import (
 	"context"
-	"github.com/go-kivik/kivik/v4"
 	"github.com/NuthChanReaksa/go-with-couchdb-api/internal/entities"
 	"github.com/NuthChanReaksa/go-with-couchdb-api/internal/interfaces"
+	"github.com/go-kivik/kivik/v4"
+	_ "github.com/go-kivik/kivik/v4/couchdb"
 )
 
 type CouchDBProductRepository struct {
